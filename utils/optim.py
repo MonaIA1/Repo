@@ -1,4 +1,4 @@
-# https://github.com/fereenwong/CleanerS/blob/main/cleaner/optim/adamw.py
+# By: https://github.com/fereenwong/CleanerS/blob/main/cleaner/optim/adamw.py
 
 import math
 import torch
