@@ -1,3 +1,5 @@
+# Based on ideas in: https://gitlab.com/UnBVision/spawn/-/blob/main/utils/obj.py?ref_type=heads
+
 from array import array
 import struct
 import numpy as np
