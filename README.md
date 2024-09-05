@@ -1,7 +1,3 @@
-# Semantic Scene Completion with Multi-Feature Data Balancing Network
-
-This repository contains the setup environment, dataset preperation and the Pytorch source code implementation for reproducing the results of the paper.
-
 The following demo shows the predicted 3D models from the NYUCAD dataset, using different MDBNet components on the NYUCAD dataset to assess the progression of each element.
 [![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1Yn3VHMozurKkYmH1SRavug8laM61YdBj/view?usp=sharing).
 
