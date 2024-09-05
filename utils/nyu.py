@@ -1,3 +1,5 @@
+# By: https://gitlab.com/UnBVision/spawn/-/blob/main/utils/nyu.py?ref_type=heads
+
 def _this_file_path():
     import pathlib
     return pathlib.Path(__file__).parent.absolute()
