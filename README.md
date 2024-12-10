@@ -1,4 +1,4 @@
-The following demo shows the predicted 3D models from the NYUCAD dataset, using different MDBNet components on the NYUCAD dataset to assess the progression of each element.
+The following demo shows the predicted 3D models from the NYUCAD dataset compared to adding RGB features to the baseline model.
 [![Demo](images/thumbnail.PNG)](https://drive.google.com/file/d/1Yn3VHMozurKkYmH1SRavug8laM61YdBj/view?usp=sharing).
 
 ## Setup
