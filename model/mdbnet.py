@@ -195,7 +195,7 @@ def get_2Dfeatures(pretrained_model):
   
   # load the pretrained model
   seg_model = SegformerForSemanticSegmentation.from_pretrained(model_name, id2label=id2label, label2id=label2id, return_dict=True, ignore_mismatched_sizes=True)
-  image_processor = SegformerImageProcessor.from_pretrained(model_name, do_rescale=False) # the images alredy scaled within the dataloder
+  image_processor = SegformerImageProcessor.from_pretrained(model_name, do_rescale=False) 
   
       # Freeze encoder parameters.
   for param in seg_model.segformer.encoder.parameters():
