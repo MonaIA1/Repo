@@ -11,7 +11,7 @@ def comp_IoU(pred, target, mask): # 0.25 occluded empty, 0.5 visible occubied (o
   mask_occl = torch.where((mask_occl == 0.25), torch.tensor(1.0), mask_occl)
   
   occl_target = torch.clamp(torch.argmax(target, dim=1), 0, 1)* mask_occl
-  occl_pred= torch.clamp(torch.argmax(pred, dim=1), 0, 1)*mask_occl
+  occl_pred= torch.clamp(torch.argmax(pred, dim=1), 0, 1)* mask_occl
   
   
   inter = torch.sum(torch.logical_and(occl_target,occl_pred)).item()
